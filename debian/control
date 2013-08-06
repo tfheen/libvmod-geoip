@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7), build-essential, python-docutils, libgeoip-dev,
 Standards-Version: 3.8.1
 Vcs-Git: git://github.com/tfheen/libvmod-geoip.git
 
-Package: libvmod-example
+Package: libvmod-geoip
 Architecture: any
 Depends: varnish, geoip-database, ${misc:Depends}
 Description: GeoIP vmod for Varnish
